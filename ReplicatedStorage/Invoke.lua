@@ -69,8 +69,8 @@ SP.MouseButton1Click:Connect(function()
 	                Can = false
 	            if plr.PlayerGui.Count.Value > 0 and plr.leaderstats.Money.Value >= Price or plr.PlayerGui.Count.Value > 0 and plr.leaderstats.Money.Value < Price then Call_Check()					
 			    elseif v.Value ~= SP.Parent.Model.Value and Count == 0 and v.Name ~= "Count" and plr.leaderstats.Money.Value >= Price then Call_Check()
-                elseif plr.PlayerGui.Count.Value == 0 and plr.leaderstats.Money.Value >= Price then Call_Check() 
-                end
+               	 	    elseif plr.PlayerGui.Count.Value == 0 and plr.leaderstats.Money.Value >= Price then Call_Check() 
+               		 end
 	        else
                 wait(1)
                     SP.TextColor3 = Color3.fromRGB(255,0,0)
